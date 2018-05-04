@@ -20,7 +20,7 @@ while(1):
     soup = BeautifulSoup(page, "lxml")
     textOnly = soup.get_text()
 
-    notOut = re.search('Invalid', textOnly)
+    notOut = re.search("Invalid", textOnly)
 
     if notOut:
         print "Results not yet out...chill", datetime.datetime.now().time()

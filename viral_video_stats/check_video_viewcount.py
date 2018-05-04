@@ -15,7 +15,7 @@ import time
 from datetime import datetime
 
 while(1):
-	url = "https://www.youtube.com/watch?v=gdGmYDz_d6A&feature=share"
+	url = "https://www.youtube.com/watch?xxxxxxxxxxxxxxx"
 	page = urllib.request.urlopen(url)
 	soup = BeautifulSoup(page, "lxml")
 	textOnly = soup.get_text()

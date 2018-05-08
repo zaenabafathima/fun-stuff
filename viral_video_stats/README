@@ -1,0 +1,6 @@
+A couple of scripts to:
+1. check the view count of a trending video on youtube and store it in a file.
+2. Create a graph from the data collected
+
+There's also the graph after about 6 days of video count polling.
+The sampling isn't consistent but you can still see a nice overall trend

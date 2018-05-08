@@ -1,0 +1,11 @@
+Uninspired backstory: I was bored and wanted to add something to this repo
+
+This is a short script which displays the top 10 Google search results for a query
+and opens the first one in Chrome.
+
+For some theatre, you can create an alias in zshrc like so:
+alias google = 'f() {  python3 ~/path/to/file/google_search.py $1 };f'
+to do something like:
+> google 'royal baby'
+which is kinda cool.
+
